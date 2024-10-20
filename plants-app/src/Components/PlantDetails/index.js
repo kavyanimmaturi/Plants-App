@@ -28,13 +28,17 @@ const PlantDetails = (plant) => {
                 <button className="buy-btn">Buy on Rent</button>
              </div>
              <div>
-             <Modal show={isModalOpen} onClose={handleCloseModal}>
+             <div>
+            <Modal show={isModalOpen} onClose={handleCloseModal}>
+             <h1>Your Cart</h1> 
+             <hr className="separator"/>
              <h2>Congratulations!!</h2>
-            <p>Selected product has been added to your cart.</p>
-            <button onClick={handleCloseModal} className="close-modal-button">
-                      Close
-            </button>
-         </Modal>
+             <p>Selected product has been added to your cart.</p>
+             <button onClick={handleCloseModal} className="close-modal-button">
+                           Close
+             </button>
+             </Modal>
+             </div>
          </div>
         </div>
     )

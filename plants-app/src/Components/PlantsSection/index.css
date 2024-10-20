@@ -93,3 +93,9 @@ img{
     color:#838383;
 
 }
+@media screen  and (min-width:768px){
+    .nursery-cont{
+        flex-grow:wrap;
+    }
+
+}

@@ -1,6 +1,5 @@
-# Getting Started with Create React App
+# Getting Started with E-commerce-Listing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -39,32 +38,50 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## About Project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To build the UI for an E-commerce Listing Page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Aim of the project 
 
-### Code Splitting
+The page should display a list of products, and 
+each product should have an option to either view the product or add it to the 
+cart. There will be no dedicated product page, so when a user clicks "View 
+Product," they should be redirected to a custom Thank You page. 
+Additionally, when users click "Add to Cart," a modal should open, as per ui design 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Technologies Used 
+    
+    React-js 
 
-### Analyzing the Bundle Size
+## Main Focus 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Header Section:
+     a. A search bar for searching products.
+     b. Icons for profile and cart.
 
-### Making a Progressive Web App
+2. Product List Section:
+     a. Display a grid/list of products based on the Figma design.
+     b. Each product card should include:
+         i. Product Image
+         ii. Product Name
+         iii. Price
+         iv. "View Product" and "Add to Cart" buttons.
+      c. Clicking "View Product" should redirect the user to a custom 
+              "Thank You" page. There will be no product details page, so you 
+              are required to design a Thank You page from scratch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Add to Cart Modal:
+     a. Clicking “Add to Cart” on any product should open a modal that 
+            displays the product’s details and an option to confirm adding the 
+             product to the cart.
+      b. The modal design is included in the Figma file and should be 
+            closely followed.
 
-### Advanced Configuration
+4. Pagination:
+     a. Implement pagination to navigate through multiple product 
+       listings (functional but mock data is acceptable).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Thank You Page:
+      a. Create a simple "Thank You" page to which users are redirected 
+           after clicking "View Product". 

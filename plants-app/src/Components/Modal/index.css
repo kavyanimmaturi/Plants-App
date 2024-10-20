@@ -1,0 +1,16 @@
+.modal-container{
+    border:1px solid #165315;
+    border-radius:8px;
+    text-align:center;
+} 
+.close-button{
+    align-self:flex-end;
+    background-color:red;
+    color: #fff;
+    border-width:0px;
+    border-radius:8px;
+} 
+.modal-content{
+    text-align:center;
+    margin-bottom:10px;
+}  
