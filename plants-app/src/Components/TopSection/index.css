@@ -1,0 +1,17 @@
+.top-section-container{
+    height:33px;
+    background-color: #165315;
+    background-size:cover;
+    color:#ffffff;
+    left:-37px;
+}
+.top-heading{
+    text-align:center;
+    font-weight:400;
+    font-size:14px;
+    line-height:16.94px;
+    top:8px;
+    height:17px;
+    padding-top:8px;
+    
+}

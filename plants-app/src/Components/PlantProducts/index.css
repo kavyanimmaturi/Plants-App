@@ -1,0 +1,53 @@
+.product-card{
+  border: 1px solid #ccc;
+  border-radius:5px;
+width: 268px;
+height:320px;
+top:790px;
+left: 420px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+display:flex;
+flex-direction:column;
+border: Mixed solid #0000004D;
+justify-content:center;
+align-items:center;
+margin:16px;
+flex-grow:1;
+}
+.product-image{
+  height:60px;
+  width:60px;
+  align-self:flex-end;
+  margin-left:310px;
+}
+.plant-img{
+  height:180px;
+  width:210px;
+  padding-top:24px;
+}
+.plant-card-items{
+  display:flex;
+  flex-direction:column;
+  top:0px;
+  text-align:left;
+  flex-grow:1;
+}
+.view-cont{
+  height:30px;
+  background-color:#165315;
+  background-size:cover;
+  height:36px;
+  width:279px;
+  top:1074.42px;
+  left:210px; 
+}
+.view{
+  text-align:center;
+  color:#ffffff;
+}
+@media screen and(min-width:768px){
+  .plant-card{
+    flex-grow:1;
+  }
+}
